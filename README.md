@@ -60,6 +60,14 @@ AUR helper of choice such as [yay](https://github.com/Jguer/yay):
 yay -S monsoon
 ```
 
+For Nix or NixOS users is a [package](https://search.nixos.org/packages?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=monsoon)
+available in Nixpkgs. Keep in mind that the lastest releases might only
+be present in the `unstable` channel.
+
+```bash
+nix-env -iA nixos.monsoon
+```
+
 ## Documentation
 
 The program has several subcommands, the most important one is `fuzz` which
